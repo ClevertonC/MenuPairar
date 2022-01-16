@@ -1,0 +1,112 @@
+*{box-sizing: border-box;
+}
+
+body{
+    background-image:url("https://images.wallpaperscraft.com/image/surface_dark_background_texture_50754_2560x1440.jpg") ;
+  background-size:cover;
+
+  }
+.container{
+  margin:270px auto;
+  display:block;
+  width:100%; 
+  max-width:270px;
+  position:relative;
+  font-family:Sans-serif;
+  
+}
+.element1{
+   height:36px;
+  margin-left:50px;
+  font-size:18px;
+  text-align:center;
+  color:white;
+  position:relative;
+  z-index:3;
+  cursor:pointer;
+  padding:10px;
+
+}
+.element2{
+  height:36px;
+  margin-left:50px;
+  font-size:18px;
+  text-align:center;
+  color:white; 
+  z-index:4;
+  position:relative;
+  padding:10px;
+}
+
+.element3{
+
+height:36px;
+  margin-left:50px;
+  font-size:18px;
+  text-align:center;
+  color:white;
+  z-index:4;
+   position:relative;
+  padding:10px;
+}
+.element4{
+  
+ height:36px;
+  margin-left:50px;
+  font-size:18px;
+  text-align:center;
+  color:white;
+  z-index:4;
+   position:relative;
+  padding:10px;
+}
+.element5{
+  height:36px;
+  margin-left:50px;
+  font-size:18px;
+  text-align:center;
+  color:white;
+  z-index:4;
+  position:relative;
+  padding:10px;
+}
+
+.hovers{
+  position:absolute;
+  top:0;
+  width:80%;
+  height:36px;
+  background-color:#b95b5b;
+  border-radius:40px;
+  border:2px solid #b95b5b;
+  z-index:1;
+  margin-left:55px;
+  transition:0.5s;
+}
+
+.element1:hover ~ .hovers{
+  background-color:#b95b5b;
+  border:2px solid #b95b5b;
+  transform:translateY(0%);
+  
+}
+.element2:hover ~ .hovers{
+  background-color:#0ebeff;
+  border:2px solid #0ebeff;
+   transform:translateY(100%);
+}
+.element3:hover ~ .hovers{
+  background-color:#d87200;
+  border:2px solid #d87200;
+   transform:translateY(200%);
+}
+.element4:hover ~ .hovers{
+  background-color:#47cf73;
+  border:2px solid #47cf73;
+   transform:translateY(300%);
+}
+.element5:hover ~ .hovers{
+  background-color:#ae63e4;
+  border:2px solid #ae63e4;
+   transform:translateY(400%);
+}
